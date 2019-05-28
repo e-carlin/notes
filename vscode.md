@@ -9,8 +9,8 @@ Here is where I am going to keep notes on learning vscode
 - Move file window to right or left pane \
   `$ cmd + ctl + ← || →`
 
-
 ## Settings
+
 ```
 {
   "editor.rulers": [80],
@@ -46,6 +46,7 @@ Here is where I am going to keep notes on learning vscode
 ```
 
 ## VSCode Keybindings
+
 ```
 [
   {
@@ -85,6 +86,22 @@ Here is where I am going to keep notes on learning vscode
   {
     "key": "shift+space",
     "command": "workbench.files.action.focusFilesExplorer"
+  },
+  {
+      "key": "ctrl+h",
+      "command": "workbench.action.navigateLeft"
+  },
+  {
+      "key": "ctrl+l",
+      "command": "workbench.action.navigateRight"
+  },
+  {
+      "key": "ctrl+k",
+      "command": "workbench.action.navigateUp"
+  },
+  {
+      "key": "ctrl+j",
+      "command": "workbench.action.navigateDown"
   }
 ]
 ```
