@@ -1,0 +1,1 @@
+- [How to delete a git submodule](https://github.com/e-carlin/notes.git)
